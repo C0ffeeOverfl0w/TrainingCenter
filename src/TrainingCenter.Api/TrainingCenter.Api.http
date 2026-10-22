@@ -1,0 +1,11 @@
+@host = http://localhost:5080
+
+POST {{host}}/api/leads
+Content-Type: application/json
+
+{
+  "name": "Иван",
+  "phone": "+7 999 123-45-67",
+  "email": "ivan@example.com",
+  "clientType": "Individual"
+}
